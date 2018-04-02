@@ -1,0 +1,109 @@
+body {
+  background: #e9e9e9;
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  max-height: 100vh;
+  flex-direction:column;
+  font-family: 'Montserrat', sans-serif;\
+}
+p {
+  color: #787878;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.93vw;
+  font-weight: 400;
+  line-height: 1.6vw;
+  letter-spacing: 0.03vw;
+}
+h1 {
+  text-align: center;
+  color: #1d1d1d;
+  font-size: 1.97vw;
+}
+h2 {
+  font-size: 1.56vw;
+}
+button {
+  font-size: 0.62vw;
+  font-weight: 700;
+  letter-spacing: 0.06vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  background: #10c9c3;
+}
+li {
+  list-style: none;
+}
+.flex-class {
+  display: flex;
+}
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+
+  background: #e9e9e9;
+  padding: 2.21vw 5.1vw;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+.logo img{
+  width: 1.61vw;
+  height: 1.3vw;
+}
+.menu-bar a {
+  padding-right: 1.5vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #191919;
+  font-size: 0.68vw;
+  font-weight: 700;
+  line-height: 1.25vw;
+  letter-spacing: 0.06vw;
+}
+.menu-bar a:hover {
+    color: #10c9c3;
+}
+#banner {
+  height: 90vh;
+}
+#banner .content {
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  margin: 13vw 10vw;
+}
+#banner .row {
+
+  align-items: center;
+  width: 24.94vw;
+  height: 12.23vw;
+}
+#banner .row button {
+  margin-top: 1.82vw;
+  width: 9.34vw;
+  height: 2.81vw;
+}
+
+#about {
+  background-color: #fff;
+}
+#about .row {
+  padding-top: 5.4vw;
+  padding-bottom: 5.3vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#about p {
+  width: 32.29vw;
+  height: 3.22vw;
+}
+#about img {
+  margin-top: 2vw;
+}
